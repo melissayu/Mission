@@ -6,7 +6,8 @@
     <string name="hello_world">Hello world!</string>
     <string name="placeholder">~placeholder~</string>
     <string name="begin">begin</string>
-
+    <string name="end">the end</string>
+    
     <!-- String array uses format:
     	item 0: main text 
     	item 1: action 1 text
@@ -27,7 +28,7 @@
     </string-array>
 
     <string-array name="s02">
-        <item>you sleep for 3 more minutes before the awful alarm starts going off again. the neighbors' dogs outside start barking along.</item>
+        <item>you sleep for 3 more minutes before the awful alarm starts going off again. the neighbor dogs outside start barking along.</item>
         <item>get up</item>
         <item></item>
         <item></item>
@@ -37,10 +38,10 @@
     </string-array>
     
     <string-array name="s03">
-        <item>you check your phone. a new message reads: URGENT - AN CRITICAL DOCUMENT HAS BEEN STOLEN FROM HQ. YOUR MISSION IS TO
+        <item>you check your phone. a new message reads: URGENT - A CRITICAL DOCUMENT HAS BEEN STOLEN FROM HQ. YOUR MISSION IS TO
             RETRIEVE THIS DOCUMENT BEFORE IT FALLS INTO THE WRONG HANDS</item>
         <item>accept mission</item>
-        <item>decline mission</item>
+        <item></item>
         <item></item>
         <item>s04</item>
         <item></item>
@@ -48,21 +49,23 @@
     </string-array>
     
     <string-array name="s04">
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item>s</item>
-        <item></item>
-        <item></item>
+        <item>as soon as you respond, you receive a new message: GREAT! GRAB ANYTHING YOU MIGHT NEED AND MEET THE HELICOPTER OUTSIDE ASAP!</item>
+        <item>in a mild panic, you just grab your phone and GET INTO THE CHOPPA</item>
+        <item>luckily your go-bag is ready to go</item>
+        <item>hold on, you need to say bye to your roomies first</item>
+        <item>s05</item>
+        <item>s05</item>
+        <item>s07</item>
     </string-array>
     
     <string-array name="s05">
+        <item>there is literally a helicopter right outside your house. the neighbors across the street are watching intently from their cars
+             as you hop in and the pilot takes off immediately. you ask what\'s going on and the pilot explains that the document appears to 
+             be in transit via amazon drone to an unknown location. you need to track it down.</item>
+        <item>ok</item>
         <item></item>
         <item></item>
-        <item></item>
-        <item></item>
-        <item>s</item>
+        <item>end</item>
         <item></item>
         <item></item>
     </string-array>
@@ -78,12 +81,13 @@
     </string-array>
         
     <string-array name="s07">
+        <item>already disgruntled at being woken up at the crack of dawn by your ungodly alarm, your roomies don\'t really care that you\'re leaving.
+            however, they hear the chopper and realize you may need supplies. one hands you a gun and the other gives you a high five.</item>
+        <item>thanks brah</item>
+        <item>chyeah brah</item>
         <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item>s</item>
-        <item></item>
+        <item>s05</item>
+        <item>s05</item>
         <item></item>
     </string-array>
         
@@ -117,12 +121,12 @@
         <item></item>
     </string-array>
         
-    <string-array name="s11">
+    <string-array name="end">
+        <item>you pick up the envelope. this must be the document.</item>
+        <item>open it</item>
         <item></item>
         <item></item>
         <item></item>
-        <item></item>
-        <item>s</item>
         <item></item>
         <item></item>
     </string-array>

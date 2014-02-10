@@ -27,6 +27,10 @@
             android:name="com.meliyu.mission.BaseActivity"
             android:noHistory="true" >
         </activity>
+        <activity
+            android:name="com.meliyu.mission.EndActivity"
+            android:noHistory="true" >
+        </activity>
         </application>
 
 </manifest>

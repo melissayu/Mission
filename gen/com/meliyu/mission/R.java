@@ -9,6 +9,7 @@ package com.meliyu.mission;
 
 public final class R {
     public static final class array {
+        public static final int end=0x7f07000a;
         /**  String array uses format:
     	item 0: main text 
     	item 1: action 1 text
@@ -29,7 +30,6 @@ public final class R {
         public static final int s08=0x7f070007;
         public static final int s09=0x7f070008;
         public static final int s10=0x7f070009;
-        public static final int s11=0x7f07000a;
     }
     public static final class attr {
     }
@@ -262,13 +262,15 @@ public final class R {
         public static final int action1=0x7f0a0002;
         public static final int action2=0x7f0a0003;
         public static final int action3=0x7f0a0004;
-        public static final int action_settings=0x7f0a0005;
+        public static final int action_settings=0x7f0a0006;
         public static final int begin=0x7f0a0000;
+        public static final int end=0x7f0a0005;
         public static final int maintext=0x7f0a0001;
     }
     public static final class layout {
         public static final int activity_start=0x7f030000;
         public static final int base_activity=0x7f030001;
+        public static final int end_activity=0x7f030002;
     }
     public static final class menu {
         public static final int start=0x7f090000;
@@ -277,6 +279,7 @@ public final class R {
         public static final int action_settings=0x7f060001;
         public static final int app_name=0x7f060000;
         public static final int begin=0x7f060004;
+        public static final int end=0x7f060005;
         public static final int hello_world=0x7f060002;
         public static final int placeholder=0x7f060003;
     }

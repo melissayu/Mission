@@ -42,9 +42,15 @@ public class BaseActivity extends Activity {
 
 		action1text.setOnClickListener(new OnClickListener(){
 			public void onClick(View v){
-				Intent goToNextActivity = new Intent(getApplicationContext(), BaseActivity.class);
-				goToNextActivity.putExtra("rid", strings[R1]);
-				startActivity(goToNextActivity);
+				if(strings[R1].equals("end")){
+					Intent goToNextActivity = new Intent(getApplicationContext(), EndActivity.class);	
+					startActivity(goToNextActivity);					
+				}
+				else {
+					Intent goToNextActivity = new Intent(getApplicationContext(), BaseActivity.class);	
+					goToNextActivity.putExtra("rid", strings[R1]);
+					startActivity(goToNextActivity);
+				}
 			}
 		});
 		action2text.setOnClickListener(new OnClickListener(){
