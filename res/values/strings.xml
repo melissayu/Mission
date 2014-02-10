@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Mission</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="placeholder">~placeholder~</string>
+    <string name="begin">begin</string>
+
+    <!-- String array uses format:
+    	item 0: main text 
+    	item 1: action 1 text
+    	item 2: action 2 text
+    	item 3: action 3 text
+    	item 4: action 1 result (e.g. s03)
+    	item 5: action 2 result
+    	item 6: action 3 result
+    	 -->
+    <string-array name="s01">
+        <item>you wake up. it is freezing even though you are tucked into five blankets. your prescription level alarm is blaring.</item>
+        <item>snooze alarm</item>
+        <item>get up</item>
+        <item></item>
+        <item>s02</item>
+        <item>s03</item>
+        <item></item>
+    </string-array>
+
+    <string-array name="s02">
+        <item>you sleep for 3 more minutes before the awful alarm starts going off again. the neighbors' dogs outside start barking along.</item>
+        <item>get up</item>
+        <item></item>
+        <item></item>
+        <item>s03</item>
+        <item></item>
+        <item></item>
+    </string-array>
+    
+    <string-array name="s03">
+        <item>you check your phone. a new message reads: URGENT - AN CRITICAL DOCUMENT HAS BEEN STOLEN FROM HQ. YOUR MISSION IS TO
+            RETRIEVE THIS DOCUMENT BEFORE IT FALLS INTO THE WRONG HANDS</item>
+        <item>accept mission</item>
+        <item>decline mission</item>
+        <item></item>
+        <item>s04</item>
+        <item></item>
+        <item></item>
+    </string-array>
+    
+    <string-array name="s04">
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item>s</item>
+        <item></item>
+        <item></item>
+    </string-array>
+    
+    <string-array name="s05">
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item>s</item>
+        <item></item>
+        <item></item>
+    </string-array>
+    
+    <string-array name="s06">
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item>s</item>
+        <item></item>
+        <item></item>
+    </string-array>
+        
+    <string-array name="s07">
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item>s</item>
+        <item></item>
+        <item></item>
+    </string-array>
+        
+    <string-array name="s08">
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item>s</item>
+        <item></item>
+        <item></item>
+    </string-array>
+        
+    <string-array name="s09">
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item>s</item>
+        <item></item>
+        <item></item>
+    </string-array>
+        
+    <string-array name="s10">
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item>s</item>
+        <item></item>
+        <item></item>
+    </string-array>
+        
+    <string-array name="s11">
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item>s</item>
+        <item></item>
+        <item></item>
+    </string-array>
+    
+    
+    
+    
+</resources>
