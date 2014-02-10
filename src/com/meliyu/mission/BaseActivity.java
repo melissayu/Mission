@@ -1,6 +1,8 @@
 package com.meliyu.mission;
 
 import android.app.Activity;
+import android.app.AlertDialog;
+import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.res.Resources;
 import android.os.Bundle;
@@ -68,6 +70,23 @@ public class BaseActivity extends Activity {
 			}
 		});
 	}
+	
+	@Override
+	public void onBackPressed() {
+	    AlertDialog alertbox = new AlertDialog.Builder(this)
+	    .setMessage("there is no backtracking in this mission. are you giving up?")
+	    .setPositiveButton("yes i am weak sauce", new DialogInterface.OnClickListener() {
+	        public void onClick(DialogInterface arg0, int arg1) {
+	        	BaseActivity.super.onBackPressed();
+	        }
+	    })
+	    .setNegativeButton("no.", new DialogInterface.OnClickListener() {
+	        public void onClick(DialogInterface arg0, int arg1) {
+	        }
+	    })
+	    .show();
+
+	 }
 
 
 }
